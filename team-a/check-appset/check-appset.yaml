@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: check-appset
-data:
-  purpose: Checks that the ApplicationSet creates an Application for a new directory.
