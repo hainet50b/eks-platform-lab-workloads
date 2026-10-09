@@ -21,7 +21,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: nginx-argo-rollouts-pod-ratio
-          image: public.ecr.aws/nginx/nginx-unprivileged:1.31.6
+          image: public.ecr.aws/nginx/nginx-unprivileged:1.30.5
           ports:
             - containerPort: 8080
           readinessProbe:
